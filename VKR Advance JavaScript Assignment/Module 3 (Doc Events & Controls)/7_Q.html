@@ -1,0 +1,17 @@
+<!-- Prevent the browser when i click the form submit button -->
+<!DOCTYPE html>
+<html>
+<body>
+
+<a id="myAnchor" href="https://vkr.com/">VIKRAMSINH REVAR</a>
+
+<p>The preventDefault() method will prevent the link above from following the URL.</p>
+
+<script>
+document.getElementById("myAnchor").addEventListener("click", function(event){
+  event.preventDefault()
+});
+</script>
+
+</body>
+</html>

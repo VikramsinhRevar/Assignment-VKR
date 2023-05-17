@@ -1,0 +1,32 @@
+<!-- Write a program of promises and handle that promises also -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let mypro = new Promise((resolve,reject)=>
+    {
+        const a = 10
+        const b = 10
+        if(a == b)
+        {
+            resolve("Right!")
+        }
+        else
+        {
+            reject("Wrong!");
+        }
+    }).then((Response)=>{
+        console.log(Response);
+    }).catch((ErrorHand1)=>{
+        console.log(ErrorHand1);
+    })
+</script>
