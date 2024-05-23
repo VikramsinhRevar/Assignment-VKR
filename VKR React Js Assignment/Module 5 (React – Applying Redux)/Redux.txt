@@ -1,0 +1,21 @@
+Q.1 -> What is Redux? 
+A.1 -> Well, an application has its state, which can be a combination of the states of 	its internal components.
+
+	Let's take an e-commerce website for example. An e-commerce website will have 	several components like the cart component, user profile component, previously 	viewed section 	component, and so on.
+
+Q.2 -> What is Redux Thunk used for? 
+A.2 -> Redux is a state management tool, which is used to store the state of different 	variables in our react application. It makes complex react applications easier 	by centralizing the 	application state. 
+	1. dispatch: It is a method used to dispatch actions, that can be received by 	reducers. 
+	2. getState: It gives access to store inside the thunk function.
+
+	A thunk function may contain any arbitrary logic, sync, or async, and can call 	dispatch or getState at any time. Before moving any further let’s understand 	the difference between 	the flow of redux with and without thunk.
+
+Q.3 ->  What is Pure Component? When to use Pure Component over Component?
+A-3 -> A pure component is a class-based component that implements shouldComponentUpdate() with a shallow comparison of the props and state123. This means that the component will only re-	render if its props or state have changed, which can improve performance by avoiding unnecessary re-renders1. Pure components are the default form of React and React Native 	components, and they extend the React Component class, which means that they can have lifecycle methods, constructors, and so on3.
+
+Q.4 ->  What is the second argument that can optionally be passed tosetState and what is its purpose?
+A-4 -> The second argument that can optionally be passed to setState is a callback function which gets called immediately after the setState is completed and the components get re-rendered.
+	If you want your program to update the value of a state using setState and then perform certain actions on the updated value of state then you must specify those actions in a 	function which should be the second argument of the setState. If we would not do so then those actions will be performed on the previous value of state because of asynchronous nature 	of setState. 
+
+Q.5 ->  Create a Table and Search data from table using React Js ?
+A-5 -> as well as below

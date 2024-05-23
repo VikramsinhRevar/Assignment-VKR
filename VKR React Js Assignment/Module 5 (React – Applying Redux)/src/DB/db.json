@@ -1,0 +1,81 @@
+{
+  "details": [
+    {
+      "id": 2,
+      "name": "angella",
+      "email": "angella@gmail.com",
+      "moblie": 2384683274,
+      "country": "US"
+    },
+    {
+      "id": 3,
+      "name": "shubham",
+      "email": "shubham@gmail.com",
+      "moblie": 21479786,
+      "country": "India"
+    },
+    {
+      "id": 4,
+      "name": "sujal",
+      "email": "sujal@gmail.com",
+      "moblie": 214773786,
+      "country": "India"
+    },
+    {
+      "name": "askjdhb",
+      "email": "asifh@gmail.com",
+      "moblie": "8794516",
+      "country": "Uk",
+      "id": 5
+    },
+    {
+      "name": "shub",
+      "email": "lajs@gmail.com",
+      "moblie": "78546",
+      "country": "inida",
+      "id": 6
+    },
+    {
+      "name": "jignesh",
+      "email": "jignesh@gmail.com",
+      "moblie": "46927986",
+      "country": "Caneda",
+      "id": 7
+    },
+    {
+      "name": "jigusha",
+      "email": "jigusha@gmail.com",
+      "moblie": "9828082",
+      "country": "inida",
+      "id": 8
+    },
+    {
+      "name": "gujan",
+      "email": "gujan34@gmial.com",
+      "moblie": "97896275",
+      "country": "USA",
+      "id": 9
+    },
+    {
+      "name": "jadav",
+      "email": "jadva@gamail.com",
+      "moblie": "921648753248",
+      "country": "bsba",
+      "id": 10
+    },
+    {
+      "name": "aesha",
+      "email": "aesha@gamil.com",
+      "moblie": "78215541878",
+      "country": "USA",
+      "id": 11
+    },
+    {
+      "name": "sujah",
+      "email": "ssaugiausgb@gmail.com",
+      "moblie": "721875298763",
+      "country": "india",
+      "id": 12
+    }
+  ]
+}
